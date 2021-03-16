@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int integerType;
+float floatType;
+double doubleType;
+char charType;
+ cout<<"size of int is:" <<
+ sizeof(integerType)<<"\n";
+ cout<<"size of float is:"<<
+ sizeof(floatType)<<"\n";
+ cout<<"size of double:"<<
+ sizeof(doubleType)<<"\n";
+ cout<<"size of char:"<<
+ sizeof(charType)<<"\n";
+ return 0;
+ }
